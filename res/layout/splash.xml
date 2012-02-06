@@ -14,7 +14,7 @@
         android:id="@+id/tableLayout1"
         android:layout_width="fill_parent"
         android:layout_height="100dp"
-        android:stretchColumns="*" >
+        android:stretchColumns="@string/hello" >
 
         <TableRow
             android:id="@+id/tableRow1"
