@@ -4,9 +4,11 @@
     android:layout_height="fill_parent"
     android:orientation="vertical" >
 
-    <TextView
+    <LinearLayout
+        android:id="@+id/linearLayout1"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/splash" />
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+    </LinearLayout>
 
 </LinearLayout>
