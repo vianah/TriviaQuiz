@@ -2,13 +2,15 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:gravity="bottom|center|center_horizontal"
+    android:background="@android:color/black"
+    android:gravity="center_horizontal|center_vertical"
     android:orientation="vertical" >
 
     <TextView
         android:id="@+id/TextViewTopTitle"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
         android:text="@string/top_title"
         android:textColor="@color/title_text_color"
         android:textSize="@dimen/title_font_size" />
@@ -29,12 +31,16 @@
                 android:id="@+id/imageView1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:drawingCacheQuality="high"
                 android:src="@drawable/splash1" />
 
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|clip_horizontal"
+                android:drawingCacheQuality="high"
                 android:src="@drawable/splash2" />
         </TableRow>
 
@@ -47,12 +53,16 @@
                 android:id="@+id/imageView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:drawingCacheQuality="high"
                 android:src="@drawable/splash3" />
 
             <ImageView
                 android:id="@+id/imageView4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:drawingCacheQuality="high"
                 android:src="@drawable/splash4" />
         </TableRow>
     </TableLayout>
@@ -61,6 +71,7 @@
         android:id="@+id/TextViewBottomTitle"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
         android:text="@string/bottom_title"
         android:textColor="@color/title_text_color"
         android:textSize="@dimen/title_font_size" />
@@ -69,8 +80,8 @@
         android:id="@+id/textViewBottomVersion"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:layout_weight="0.70"
         android:background="@color/background_color"
+        android:gravity="center_vertical|center_horizontal"
         android:lineSpacingExtra="@dimen/version_text_spacing"
         android:text="@string/version_info"
         android:textColor="@color/version_text_color"

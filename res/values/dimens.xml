@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <dimen name="title_font_size">24pt</dimen>
+    <dimen name="control_text_font_size">5pt</dimen>
+    <dimen name="version_text_spacing">3pt</dimen>
+</resources>

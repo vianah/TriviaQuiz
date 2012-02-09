@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">Been There, Done That!</string>
     <string name="help">Help Screen</string>
     <string name="menu">Main Menu Screen</string>
@@ -7,5 +8,8 @@
     <string name="settings">Settings Screen</string>
     <string name="game">Game Screen</string>
     <string name="scores">Scores Screen</string>
+    <string name="top_title">Been There</string>
+    <string name="bottom_title">Done That!</string>
+    <string name="version_info">this is version 1.0 @Wiltzu</string>
 
 </resources>
