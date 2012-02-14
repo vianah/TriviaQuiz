@@ -11,5 +11,10 @@
     <string name="top_title">Been There</string>
     <string name="bottom_title">Done That!</string>
     <string name="version_info">this is version 1.0 @Wiltzu</string>
+    <string name="listview_item1">Play</string>
+    <string name="listview_item2">View Scores</string>
+    <string name="listview_item3">Settings</string>
+    <string name="listview_item4">Help</string>
+    <string name="menu_title">MAIN MENU</string>
 
 </resources>

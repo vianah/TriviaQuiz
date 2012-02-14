@@ -3,4 +3,6 @@
      <dimen name="title_font_size">24pt</dimen>
     <dimen name="control_text_font_size">5pt</dimen>
     <dimen name="version_text_spacing">3pt</dimen>
+    <dimen name="menu_screen_title">16pt</dimen>
+    <dimen name="listview_item_size">16pt</dimen>
 </resources>
