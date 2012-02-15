@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu_main_layout"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="@drawable/bkgrnd"
@@ -25,7 +26,11 @@
             android:layout_height="wrap_content"
             android:text="@string/menu_title"
             android:textSize="@dimen/menu_screen_title"
-            android:textColor="@color/menu_color" 
+            android:textColor="@color/title_color"
+            android:shadowColor="@color/title_glow"
+            android:shadowDy="3"
+			android:shadowDx="3"
+			android:shadowRadius="5"
             android:layout_centerHorizontal="true"
             android:layout_alignParentTop="true"/>
 
@@ -55,7 +60,9 @@
             android:id="@+id/listView_menu"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentTop="true" >
+            android:layout_alignParentTop="true" 
+            android:divider="@drawable/divider"
+            android:listSelector="@drawable/textured">
         </ListView>
 
     </RelativeLayout>
