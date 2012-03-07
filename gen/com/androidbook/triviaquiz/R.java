@@ -43,23 +43,24 @@ public final class R {
         public static final int textured=0x7f020008;
     }
     public static final class id {
-        public static final int TextViewBottomTitle=0x7f09000d;
-        public static final int TextViewTopTitle=0x7f090008;
-        public static final int help_menu=0x7f090010;
+        public static final int TextViewBottomTitle=0x7f09000e;
+        public static final int TextViewTopTitle=0x7f090009;
+        public static final int help_menu=0x7f090011;
         public static final int imageView1=0x7f090002;
         public static final int imageView2=0x7f090004;
         public static final int imageView3=0x7f090006;
-        public static final int imageView4=0x7f09000c;
+        public static final int imageView4=0x7f09000d;
         public static final int listView_menu=0x7f090007;
+        public static final int menu_listview_text=0x7f090008;
         public static final int menu_main_layout=0x7f090000;
         public static final int relativeLayout1=0x7f090001;
         public static final int relativeLayout2=0x7f090005;
-        public static final int settings_menu=0x7f09000f;
-        public static final int tableLayout1=0x7f090009;
-        public static final int tableRow1=0x7f09000a;
-        public static final int tableRow2=0x7f09000b;
+        public static final int settings_menu=0x7f090010;
+        public static final int tableLayout1=0x7f09000a;
+        public static final int tableRow1=0x7f09000b;
+        public static final int tableRow2=0x7f09000c;
         public static final int textView1=0x7f090003;
-        public static final int textViewBottomVersion=0x7f09000e;
+        public static final int textViewBottomVersion=0x7f09000f;
     }
     public static final class layout {
         public static final int game=0x7f030000;
